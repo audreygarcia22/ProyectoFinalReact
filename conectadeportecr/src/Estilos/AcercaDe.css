@@ -1,0 +1,11 @@
+.acerca-de {
+    background-color: var(--color-celeste);
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .acerca-de h2 {
+    color: var(--color-texto-oscuro);
+    margin-bottom: 1rem;
+  }
+

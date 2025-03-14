@@ -1,0 +1,26 @@
+.heroe {
+    background-image: url('../Imagenes/plaza.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(190, 202, 23);
+    text-align: center;
+    padding: 10rem 0;
+    
+  }
+  
+  .heroe-contenido {
+    background-color: rgba(4, 12, 17, 0.7); /* Oscurecer el contenido */
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  
+  .boton {
+    background-color: var(--color-verde);
+    color: rgb(129, 163, 236);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
