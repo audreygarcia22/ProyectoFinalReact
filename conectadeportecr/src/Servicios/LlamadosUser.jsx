@@ -8,7 +8,7 @@ async function GetUsers() {
         });
 
         if (!response.ok) {
-            throw new Error('Error fetching users');
+            throw new Error('Error fe   tching users');
         }
 
         return await response.json();

@@ -2,7 +2,8 @@
     background-image: url('../Imagenes/plaza.jpg');
     background-size: cover;
     background-position: center;
-    color: rgb(190, 202, 23);
+    color: yellow;
+    font-family: serif,sans-serif, Courier, Courier, monospace;
     text-align: center;
     padding: 10rem 0;
     
@@ -13,14 +14,10 @@
     padding: 2rem;
     border-radius: 10px;
   }
+
   
   
-  .boton {
-    background-color: var(--color-verde);
-    color: rgb(129, 163, 236);
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-  }
+  
+  
+
+  

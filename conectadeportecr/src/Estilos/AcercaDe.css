@@ -1,11 +1,12 @@
 .acerca-de {
-    background-color: var(--color-celeste);
+   
     padding: 3rem 2rem;
     text-align: center;
+    color: black;
   }
   
   .acerca-de h2 {
-    color: var(--color-texto-oscuro);
+    background-color: green;
     margin-bottom: 1rem;
   }
 

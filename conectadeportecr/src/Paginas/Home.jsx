@@ -1,8 +1,8 @@
 import React from 'react';
-import SeccionHeroe from '../Componentes/SeccionHeroe';
-import SeccionAcercaDe from '../Componentes/SeccionAcercaDe';
-import EventosDestacados from '../Componentes/EventosDestacados';
-import LlamadaALaAccion from '../Componentes/LlamadaALaAccion';
+import SeccionHeroe from '../Componentes/PaginaHome/SeccionHeroe';
+import SeccionAcercaDe from '../Componentes/PaginaHome/SeccionAcercaDe';
+import EventosDestacados from '../Componentes/PaginaHome/EventosDestacados';
+import LlamadaALaAccion from '../Componentes/PaginaHome/LlamadaALaAccion';
 
 function Home() {
   return (

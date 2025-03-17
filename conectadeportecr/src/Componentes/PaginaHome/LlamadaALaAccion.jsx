@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Estilos/ALaAccion.css"
+import "../../Estilos/ALaAccion.css";
 
 function LlamadaALaAccion() {
   return (
@@ -8,7 +8,7 @@ function LlamadaALaAccion() {
       <p>
         Descubre eventos, conecta con instituciones y apoya el deporte local.
       </p>
-      <div className="botones-llamada">
+      <div className="boton boton-registro">
         <button className="boton boton-registro">Regístrate ahora</button>
         <button className="boton boton-explorar">Explorar eventos</button>
       </div>

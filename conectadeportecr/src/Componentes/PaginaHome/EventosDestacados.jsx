@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Estilos/Destacados.css"
+import "../../Estilos/Destacados.css"
 
 function EventosDestacados() {
   // Aquí iría la lógica para obtener los eventos destacados desde el backend
