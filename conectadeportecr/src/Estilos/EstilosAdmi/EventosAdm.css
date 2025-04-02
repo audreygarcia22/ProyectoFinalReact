@@ -1,0 +1,89 @@
+.eventos {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .eventos h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .eventos div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .eventos input,
+  .eventos textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .eventos button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .eventos button:hover {
+    background-color: #0056b3;
+  }
+  
+  .eventos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .eventos li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .eventos li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+  }
+  
+  .eventos li button:hover {
+    background-color: #a71d2a;
+  }
+  
+  /* Estilos para el formulario de edición */
+  .eventos div h3 {
+    text-align: center;
+    color: #555;
+  }
+  
+  .eventos div input,
+  .eventos div textarea {
+    border: 1px solid #bbb;
+  }
+  
+  .eventos div button {
+    background-color: #28a745;
+  }
+  
+  .eventos div button:hover {
+    background-color: #1e7e34;
+  }
+  

@@ -6,7 +6,7 @@ import LlamadaALaAccion from '../Componentes/PaginaHome/LlamadaALaAccion';
 
 function Home() {
   return (
-    <div className="home-container">
+    <div >
       <SeccionHeroe />
       <SeccionAcercaDe />
       <EventosDestacados />

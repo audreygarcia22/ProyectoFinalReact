@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../Estilos/AcercaDe.css";
+import "../../Estilos/EstilosHome/AcercaDe.css";
 
 function SeccionAcercaDe() {
   return (

@@ -1,0 +1,88 @@
+/* Estilos generales */
+.foro-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Estilos para el área de ingreso de comentarios */
+  .comentario-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .comentario-input textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .comentario-input button {
+    align-self: flex-end;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .comentario-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para la lista de comentarios */
+  .contenedor-comentarios {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lista-comentarios {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comentario {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .comentario:last-child {
+    border-bottom: none;
+  }
+  
+  .comentario p {
+    margin: 5px 0;
+  }
+  
+  .comentario button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .comentario button:hover {
+    background-color: #c82333;
+  }
+  

@@ -1,0 +1,53 @@
+/* Estilos generales */
+.admin-page {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Barra de navegación */
+  .admin-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-btn button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .admin-btn button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Secciones de administración */
+  .usuarios-admin,
+  .eventos-admin,
+  .foro-admin {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .usuarios-admin h2,
+  .eventos-admin h2,
+  .foro-admin h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+  

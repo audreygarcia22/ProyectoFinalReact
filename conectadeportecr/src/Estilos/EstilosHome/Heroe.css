@@ -1,5 +1,5 @@
 .heroe {
-    background-image: url('../Imagenes/plaza.jpg');
+    background-image: url("../../Imagenes/plaza.jpg");
     background-size: cover;
     background-position: center;
     color: yellow;

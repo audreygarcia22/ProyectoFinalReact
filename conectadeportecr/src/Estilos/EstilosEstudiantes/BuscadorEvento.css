@@ -1,0 +1,43 @@
+.buscador-eventos {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.buscador-eventos input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+.buscador-eventos input:focus {
+  border-color: #0056b3;
+}
+
+.lista-resultados {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.lista-resultados li {
+  background: #f8f9fa;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease-in-out;
+}
+
+.lista-resultados li:hover {
+  background: #e2e6ea;
+  cursor: pointer;
+}

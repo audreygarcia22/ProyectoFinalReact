@@ -1,0 +1,46 @@
+.foro-usuarios {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+   h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .foro-usuarios h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .lista-usuarios {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lista-usuarios li {
+    background: #f8f9fa;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
+  }
+  
+  .lista-usuarios li:hover {
+    transform: translateY(-3px);
+    background: #1767b8;
+  }
+  
+  .lista-usuarios strong {
+    color: #530932;
+    font-weight: bold;
+  }
+  
